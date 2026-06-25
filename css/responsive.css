@@ -1,0 +1,437 @@
+/* ===========================================
+   LARGE DESKTOP (1400px+)
+=========================================== */
+
+@media (min-width: 1400px){
+
+    .container{
+
+        max-width:1320px;
+
+    }
+
+}
+
+/* ===========================================
+   LAPTOP
+=========================================== */
+
+@media (max-width:1200px){
+
+    .hero-container{
+
+        gap:60px;
+
+    }
+
+    .hero-title{
+
+        font-size:4.3rem;
+
+    }
+
+}
+
+/* ===========================================
+   TABLET
+=========================================== */
+
+@media (max-width:992px){
+
+    /* Navigation */
+
+    .nav-menu{
+
+        display:none;
+
+    }
+
+    .nav-button{
+
+        display:none;
+
+    }
+
+    .menu-toggle{
+
+        display:flex;
+
+        flex-direction:column;
+
+        justify-content:center;
+
+        gap:6px;
+
+        border:none;
+
+        background:none;
+
+        cursor:pointer;
+
+    }
+
+    .menu-toggle span{
+
+        width:26px;
+
+        height:2px;
+
+        background:white;
+
+        border-radius:10px;
+
+    }
+
+    /* Hero */
+
+    .hero{
+
+        padding-top:140px;
+
+        min-height:auto;
+
+    }
+
+    .hero-container{
+
+        grid-template-columns:1fr;
+
+        gap:60px;
+
+    }
+
+    .hero-dashboard{
+
+        justify-content:center;
+
+    }
+
+    .hero-content{
+
+        text-align:center;
+
+    }
+
+    .hero-description{
+
+        margin-inline:auto;
+
+    }
+
+    .hero-buttons{
+
+        justify-content:center;
+
+        flex-wrap:wrap;
+
+    }
+
+    .tech-stack{
+
+        justify-content:center;
+
+    }
+
+}
+
+/* ===========================================
+   MOBILE
+=========================================== */
+
+@media (max-width:768px){
+
+    section{
+
+        padding:90px 0;
+
+    }
+
+    .hero{
+
+        padding-top:120px;
+
+    }
+
+    .hero-title{
+
+        font-size:3rem;
+
+    }
+
+    .hero-description{
+
+        font-size:1rem;
+
+    }
+
+    .dashboard{
+
+        width:100%;
+
+    }
+
+    .stats-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .hero-buttons{
+
+        flex-direction:column;
+
+        width:100%;
+
+    }
+
+    .btn{
+
+        width:100%;
+
+    }
+
+    .tech-stack{
+
+        gap:10px;
+
+    }
+
+    .tech-stack span{
+
+        font-size:13px;
+
+        padding:9px 15px;
+
+    }
+
+}
+
+/* ===========================================
+   SMALL MOBILE
+=========================================== */
+
+@media (max-width:480px){
+
+    .container{
+
+        width:92%;
+
+    }
+
+    .hero-title{
+
+        font-size:2.4rem;
+
+        line-height:1.15;
+
+    }
+
+    .hero-badge{
+
+        font-size:11px;
+
+    }
+
+    .dashboard{
+
+        padding:24px;
+
+    }
+
+    .stat-card{
+
+        padding:18px;
+
+    }
+
+    .stat-card h2{
+
+        font-size:1.6rem;
+
+    }
+
+    .logo-text{
+
+        font-size:28px;
+
+    }
+
+}
+@media(max-width:992px){
+
+.metrics-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+@media(max-width:768px){
+
+.metrics-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+/* ======================================
+        EXPERIENCE
+====================================== */
+
+@media(max-width:992px){
+
+    .experience-header{
+
+        flex-direction:column;
+
+        gap:15px;
+
+    }
+
+    .experience-block ul{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .impact-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .experience-card{
+
+        padding:30px;
+
+    }
+
+    .experience-header h2{
+
+        font-size:1.6rem;
+
+    }
+
+}
+@media(max-width:992px){
+
+    .philosophy-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+@media(max-width:992px){
+
+    .ai-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+@media(max-width:992px){
+
+    .toolbox-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+@media(max-width:992px){
+
+    .education-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+@media(max-width:768px){
+
+    .experience-details{
+
+        padding:0 30px;
+
+    }
+
+    .experience-card.active .experience-details{
+
+        padding:0 30px 30px;
+
+    }
+
+}
+
+@media(max-width:992px){
+
+    .experience-top{
+
+        flex-direction:column;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .experience-summary{
+
+        padding:30px;
+
+    }
+
+    .experience-top h2{
+
+        font-size:1.8rem;
+
+    }
+
+    .experience-details{
+
+        padding:0 30px;
+
+    }
+
+    .experience-card.active .experience-details{
+
+        padding:0 30px 30px;
+
+    }
+
+}
+@media(max-width:768px){
+
+.contact-card{
+
+    padding:50px 30px;
+
+}
+
+.contact-card h2{
+
+    font-size:2rem;
+
+}
+
+.contact-actions{
+
+    flex-direction:column;
+
+}
+
+.contact-actions a{
+
+    width:100%;
+
+}
+
+}

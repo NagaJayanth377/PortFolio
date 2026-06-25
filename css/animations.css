@@ -1,0 +1,136 @@
+.fade-up{
+
+    opacity:0;
+
+    transform:translateY(50px);
+
+    transition:
+
+    opacity .8s ease,
+
+    transform .8s ease;
+
+}
+
+.show{
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}
+
+/* Dashboard */
+
+.dashboard{
+
+    animation:
+
+    floating 7s ease-in-out infinite;
+
+}
+
+@keyframes floating{
+
+    0%{
+
+        transform:translateY(0px);
+
+    }
+
+    50%{
+
+        transform:translateY(-10px);
+
+    }
+
+    100%{
+
+        transform:translateY(0px);
+
+    }
+
+}
+
+/* Tech Chips */
+
+.tech-stack span{
+
+    transition:
+
+    .3s ease;
+
+}
+
+.tech-stack span:hover{
+
+    transform:
+
+    translateY(-5px)
+
+    scale(1.05);
+
+}
+
+/* Buttons */
+
+.btn{
+
+    transition:
+
+    .3s ease;
+
+}
+
+/* Stat Cards */
+
+.stat-card{
+
+    transition:
+
+    .35s ease;
+
+}
+
+.stat-card:hover{
+
+    transform:
+
+    translateY(-8px);
+
+}
+
+/* Smooth */
+
+*{
+
+    transition-property:
+
+    color,
+
+    background,
+
+    border,
+
+    box-shadow;
+
+}
+.fade-up{
+
+    opacity:0;
+
+    transform:translateY(40px);
+
+    transition:
+        opacity .7s ease,
+        transform .7s ease;
+
+}
+
+.fade-up.show{
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}
