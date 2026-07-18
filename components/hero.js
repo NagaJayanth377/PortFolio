@@ -7,7 +7,7 @@ export function Hero() {
             <div class="hero-content">
 
                 <span class="hero-badge">
-                    🚀 Enterprise • Full Stack • AI Solutions
+                    Enterprise • Full Stack • AI Solutions
                 </span>
 
                 <h1 class="hero-title">
@@ -52,6 +52,8 @@ export function Hero() {
                     <span>Redis</span>
 
                     <span>AI</span>
+                                <span>N8N</span>
+                                            <span>LangChain</span>
 
                 </div>
 
