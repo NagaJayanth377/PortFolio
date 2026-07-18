@@ -59,7 +59,22 @@ applications.
 <span>HTML5</span>
 <span>CSS3</span>
 <span>JavaScript</span>
+<span>TypeScript</span>
 
+</div>
+
+</div>
+
+<div class="toolbox-card fade-up">
+
+<h3>Gen AI</h3>
+
+<div class="tool-list">
+
+<span>N8N</span>
+<span>Ollama</span>
+<span>LangChain</span>
+<span>Prompt Engineering</span>
 </div>
 
 </div>
