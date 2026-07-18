@@ -27,7 +27,7 @@ export function Hero() {
                     </a>
 
                     <a
-                        href="./assets/resume/NagaJayanth.pdf"
+                        href="./data/NagaJayanth_FullStackDeveloper_GenAI_4yrs_Resume.pdf"
                         class="btn btn-outline"
                         download>
 
