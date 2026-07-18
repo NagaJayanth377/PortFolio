@@ -36,7 +36,7 @@ with fellow engineers, I'd love to hear from you.
 <div class="contact-actions">
 
 <a
-href="mailto:yourmail@gmail.com"
+href="mailto:nagajayanth99@gmail.com"
 class="primary-btn">
 
 Email Me
@@ -44,7 +44,7 @@ Email Me
 </a>
 
 <a
-href="https://linkedin.com/in/yourprofile"
+href="https://www.linkedin.com/in/naga-jayanth-pichika/"
 target="_blank"
 class="secondary-btn">
 
@@ -53,7 +53,7 @@ LinkedIn
 </a>
 
 <a
-href="https://github.com/yourusername"
+href="https://github.com/NagaJayanth377"
 target="_blank"
 class="secondary-btn">
 
