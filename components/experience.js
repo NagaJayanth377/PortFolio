@@ -11,12 +11,13 @@ export function Experience() {
             </p>
 
             <h2 class="section-title">
-                Engineering Business Solutions That Scale
+                Building Scalable .NET Applications with GenAI Integration
             </h2>
 
             <p class="section-description">
-                Building enterprise applications, modernizing legacy systems,
-                optimizing performance and delivering AI-powered innovation.
+                Building and modernizing enterprise applications,
+                engineering scalable solutions and integrating GenAI
+                to solve real-world business problems.
             </p>
 
         </div>
@@ -39,10 +40,10 @@ export function Experience() {
 
                     <p class="summary-description">
 
-                        Modernizing enterprise applications,
-                        building scalable APIs,
-                        optimizing databases and integrating
-                        AI-powered business solutions.
+                        Building and modernizing enterprise applications
+                        using .NET and Angular while integrating GenAI
+                        capabilities for intelligent knowledge retrieval,
+                        automation and operational insights.
 
                     </p>
 
@@ -50,17 +51,16 @@ export function Experience() {
 
                         <span>.NET</span>
                         <span>Angular</span>
-                        <span>Blazor</span>
                         <span>Azure</span>
                         <span>SQL</span>
-                        <span>AI</span>
+                        <span>Python</span>
+                        <span>GenAI</span>
 
                     </div>
 
                 </div>
 
                <div class="experience-duration">
-
 
                     <p class="duration">
                         Oct 2022 — Present
@@ -96,10 +96,11 @@ export function Experience() {
 
                     <p>
 
-                        Worked as a Full Stack Developer delivering enterprise
-                        web applications, migrating legacy platforms,
-                        improving API performance and implementing AI-driven
-                        business capabilities.
+                        Working as a Full Stack Developer building and
+                        modernizing enterprise applications using ASP.NET Core,
+                        Angular, SQL Server and Azure, while integrating GenAI
+                        capabilities using RAG, LLMs, Python AI services
+                        and intelligent automation workflows.
 
                     </p>
 
@@ -111,17 +112,17 @@ export function Experience() {
 
                     <ul>
 
-                        <li>Enterprise Application Modernization</li>
+                        <li>ASP.NET Core Enterprise Applications & APIs</li>
 
-                        <li>Cloud Native APIs</li>
+                        <li>Enterprise Application Modernization</li>
 
                         <li>Angular & Blazor Applications</li>
 
-                        <li>Performance Optimization</li>
+                        <li>LangChain-Based RAG Solutions</li>
 
-                        <li>Database Tuning</li>
+                        <li>AI-Powered Ticket Automation</li>
 
-                        <li>AI Workflow Integration</li>
+                        <li>Automated Reporting & Historical Analysis</li>
 
                     </ul>
 
@@ -133,13 +134,15 @@ export function Experience() {
 
                     <ul>
 
-                        <li>Improved API performance significantly.</li>
+                        <li>Modernized 4+ legacy enterprise applications.</li>
 
-                        <li>Integrated AI-based email summarization.</li>
+                        <li>Improved API response time by 66%.</li>
 
-                        <li>Implemented predictive analysis solutions.</li>
+                        <li>Reduced daily reporting effort from 1 hour to 10 minutes using AI automation.</li>
 
-                        <li>Optimized SQL procedures.</li>
+                        <li>Built AI-driven historical analysis to identify recurring patterns and operational root causes.</li>
+
+                        <li>Increased automated test coverage from 55% to 80%.</li>
 
                     </ul>
 
